@@ -3,9 +3,7 @@
 
 name: WeatherForecast-Automation
 
-on:
-  release:
-    types: [created]
+on:push
 
 jobs:
   build:
